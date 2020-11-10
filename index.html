@@ -7,17 +7,21 @@
   <link rel="stylesheet" href="dist/css/main.min.css">
 </head>
 <body>
-  <div class="wrap" id="app">
+  <div class="wrap" id="app" :class="{on: loaded ? true : false}">
     <h1>
       Fake Data Generator
     </h1>
     <p>
       Author: <a href="https://github.com/jw-12138">https://github.com/jw-12138</a>
     </p>
-    <p>
-      <label></label>
-      <input type="text">
+    <h2>
+      选择需要生成的数据
+    </h2>
+    <p v-for="item in prop">
+      <input type="checkbox" :id="item.id"> <label :for="item.id">{{item.label}}</label>
     </p>
+    <hr>
+    <button @click="generate">生成</button>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@0.21.0/dist/axios.min.js"></script>

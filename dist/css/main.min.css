@@ -1,1 +1,1 @@
-body{font-family:"Consolas","Menlo","Courier New",Courier,monospace;box-sizing:border-box}body *{box-sizing:border-box}.wrap{max-width:800px;padding:20px;margin:0 auto}/*# sourceMappingURL=main.min.css.map */
+body{font-family:"Consolas","Menlo","Courier New",'Microsoft Yahei UI',Courier,monospace;box-sizing:border-box}body *{box-sizing:border-box}.wrap{max-width:800px;min-width:280px;padding:20px;margin:0 auto;opacity:0}.wrap.on{opacity:1}/*# sourceMappingURL=main.min.css.map */

@@ -1,5 +1,5 @@
 body {
-  font-family: "Consolas", "Menlo", "Courier New", Courier, monospace;
+  font-family: "Consolas", "Menlo", "Courier New", 'Microsoft Yahei UI', Courier, monospace;
   box-sizing: border-box;
   *{
     box-sizing: border-box;
@@ -8,6 +8,12 @@ body {
 
 .wrap {
   max-width: 800px;
+  min-width: 280px;
   padding: 20px;
   margin: 0 auto;
+  opacity: 0;
+
+  &.on{
+    opacity: 1;
+  }
 }
