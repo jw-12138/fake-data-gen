@@ -31,7 +31,7 @@
           } else {
             clearInterval(s)
           }
-        }, 10)
+        }, 0)
       },
       getRandomInt: function (min, max) {
         min = Math.ceil(min)
@@ -48,7 +48,7 @@
         })
         axios({
           method: 'get',
-          url: 'data/last-name.txt',
+          url: 'name_output_2.txt',
           responseType: 'text'
         }).then(function (res) {
           _this.last_name_db = res.data
