@@ -9,7 +9,7 @@ fs.readFile('name.txt', 'utf8', function (err, data) {
   let i = 0
 
   let s = setInterval(() => {
-    if (i == text_arr.length - 1) {
+    if (i === text_arr.length - 1) {
       clearInterval(s)
       merge()
     }

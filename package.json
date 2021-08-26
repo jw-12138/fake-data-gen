@@ -1,0 +1,22 @@
+{
+  "name": "fake-data-gen",
+  "version": "1.0.0",
+  "description": "一个中文假数据生成器",
+  "main": "format.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jw-12138/fake-data-gen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jw-12138/fake-data-gen/issues"
+  },
+  "homepage": "https://github.com/jw-12138/fake-data-gen#readme",
+  "devDependencies": {
+    "single-line-log": "^1.1.2"
+  }
+}

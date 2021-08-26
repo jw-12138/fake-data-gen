@@ -9,12 +9,12 @@ fs.readFile('name_output_16.txt', 'utf8', function (err, data) {
   let i = 0
 
   let s = setInterval(() => {
-    if (i == text_arr.length - 1) {
+    if (i === text_arr.length - 1) {
       clearInterval(s)
       merge()
     }
     let str = text_arr[i]
-    if(i % 2 == 0){
+    if (i % 2 === 0) {
       output.push(str)
     }
     let percent = ((i + 1) / text_arr.length) * 100
